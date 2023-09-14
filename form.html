@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend's Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1 class="titletext"><a href="">Totallykent's Website</a></h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="main.html">Profile</a></li>
+                    <li><a href="hobbies.html">Hobbies & Skills</a></li>
+                    <li><a href="old/subject.html">Subjects</a></li>
+                    <li><a href="old/umtc.html">Mission, Vision, and Goal</a></li>
+                    <li><a href="old/gallery.html">Picture Gallery</a></li>
+                    <li><a href="old/family.html">Family</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div><br><br><br>
+    <center><div class="formBox">
+        <h2 class="titletext">Personal Information:</h2>
+        <table>
+            <tr>
+                <td><label for="fullName">Full Name:</label></td>
+                <td><input type="text" id="fullName" placeholder="Enter name"></td>
+            </tr>
+            <tr>
+                <td><label for="birthdate">Birthdate:</label></td>
+                <td><input type="date" id="birthdate"></td>
+            </tr>
+            <tr>
+                <td><label for="phoneNum">Phone No.:</label></td>
+                <td><input type="number" id="phoneNum" placeholder="####-###-####" pattern="\d{4}-?\d{3}-?\d{4}"></td>
+            </tr>
+            <tr>
+                <td><label for="photo">Upload Image:</label></td>
+                <td><input type="file" accept="image/*" id="photo"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="formBox">
+        <h2 class="titletext">Educational Background:</h2>
+        <table>
+            <tr>
+                <td><label for="primarySchool">Primary School:</label></td>
+                <td><input type="text" id="primarySchool" placeholder="Enter school name"></td>
+            </tr>
+            <tr>
+                <td><label for="secondarySchool">Secondary School:</label></td>
+                <td><input type="text" id="secondarySchool" placeholder="Enter school name"></td>
+            </tr>
+            <tr>
+                <td><label for="tertiarySchool">Tertiary School:</label></td>
+                <td><input type="number" id="tertiarySchool" placeholder="Enter school name"></td>
+            </tr>
+            <tr>
+                <td><label for="collegeCourse">College Course:</label></td>
+                <td><select id="collegeCourse">
+                    <option value="" disabled selected>Select Course</option>
+                    <option value="computerScience">Computer Science</option>
+                    <option value="psychology">Psychology</option>
+                    <option value="biology">Biology</option>
+                    <option value="engineering">Engineering</option>
+                    <option value="business">Business Administration</option>
+                    <option value="history">History</option>
+                    <option value="economics">Economics</option>
+                    <option value="mathematics">Mathematics</option>
+                    <option value="english">English Literature</option>
+                    <option value="art">Art History</option>
+                  </select></td>
+            </tr>
+        </table>
+    </div></center>
+</body>
+</html>
